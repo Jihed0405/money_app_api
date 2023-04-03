@@ -4,7 +4,9 @@ from .models import Money
 
 
 class MoneySerializer(serializers.ModelSerializer):
-   
+    class Meta:
+        model = Money
+        fields = ('categoryType','type','itemCategoryName','itemName','amount','date')
     categoryType = serializers.CharField(max_length=1000)
     type = serializers.CharField(max_length=1)
     itemCategoryName = serializers.CharField(
