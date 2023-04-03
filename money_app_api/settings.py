@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-60klg^og^lcg$(wskz6z0a%t2@#z95+=pmor%ck65n5+0ci)w-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    'moneyapi.apps.MoneyapiConfig',
+    'rest_framework',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
