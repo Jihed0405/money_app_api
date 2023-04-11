@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'moneyapp',
         'HOST' : 'localhost',
         'USER' : 'root',
-        'PASSWORD' : 'lolSett405,n'
+        'PASSWORD' : 'lolSett405'
     }
 }
 
