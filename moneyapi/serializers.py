@@ -18,7 +18,7 @@ class MoneySerializer(serializers.ModelSerializer):
     )
 
     amount = serializers.DecimalField(
-    max_digits=10, decimal_places=3  
+    max_digits=30, decimal_places=3  
     )
   
   
