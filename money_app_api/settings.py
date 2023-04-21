@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'money_app_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'moneyapp',
+        'NAME': 'jihed0405$moneyapp',
         'HOST' : 'jihed0405.mysql.pythonanywhere-services.com',
         'USER' : 'jihed0405',
         'PASSWORD' : 'lolSett405'
