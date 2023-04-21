@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'moneyapp',
-        'HOST' : 'localhost',
-        'USER' : 'root',
+        'HOST' : 'jihed0405.mysql.pythonanywhere-services.com',
+        'USER' : 'jihed0405',
         'PASSWORD' : 'lolSett405'
     }
 }
